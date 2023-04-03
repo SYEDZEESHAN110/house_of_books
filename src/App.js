@@ -1,8 +1,14 @@
 import React from 'react'
+import Login from './Components/Login'
+import Signup from './Components/signup'
+
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+    <Login/>
+    <Signup/>
+    </div>
   )
 }
 
